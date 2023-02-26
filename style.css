@@ -34,8 +34,8 @@ body {
 .navbar .navbar-nav a {
     color: #000000;
     display: inline-block;
-    font-size: 1.2rem;
-    margin: 0 1rem;
+    font-size: 1.1rem;
+    margin: 0.1rem;
 
 }
 .navbar .navbar-nav a:hover {
@@ -59,7 +59,7 @@ body {
 }
 .menuhp {
     padding: 10px 10px 10px 10px;
-    font-size: 10px;
+    font-size: 5px;
     border-bottom:2px solid #0095ff;
     border-top: 2px solid #009dff;
 }
@@ -132,7 +132,7 @@ footer {
 .navbar .navbar-nav {
             position: absolute;
             top: 100%;
-            right: -100%;
+            bottom: -200px;
             background-color:#ffffffa7;
         
             width: 30rem;
@@ -140,12 +140,13 @@ footer {
             transition :0.3s; 
         }
         .navbar .navbar-nav.active {
-         right: 0;
+         bottom: 0;
+         top: 65%;
 
         }
 }
 /* tablet*/
-@media (max-width:768px) {
+@media (max-width:500px) {
     html {
         font-size:  62.5%;
     }
@@ -156,16 +157,15 @@ footer {
         }
 .navbar .navbar-nav {
             position: absolute;
-            top: 100%;
-            right: -100%;
+            top: 80%;
+            left: -100%;
             background-color:#ffffffa7;
-        
             width: 30rem;
             height: 100vh;
             transition :0.3s; 
         }
         .navbar .navbar-nav.active {
-         right: 0;
+         left: 40%;
 
         }
     }
