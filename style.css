@@ -20,6 +20,7 @@
     --color-bg: #1f2641;
     --color-bg1: #2e3267;
     --color-bg2: #424890;
+    --color-bg3: #FF9933;
 
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -317,6 +318,19 @@ header {
     margin: 0 auto 1rem;
     border: 1rem solid var(--color-bg1);
 }
+.avatar web{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg3);
+}
+
 
 .testis_info {
     text-align: center;
