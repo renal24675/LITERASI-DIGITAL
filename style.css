@@ -20,7 +20,6 @@
     --color-bg: #1f2641;
     --color-bg1: #2e3267;
     --color-bg2: #424890;
-    --color-bg3: #FF9933;
 
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -319,24 +318,12 @@ header {
     border: 1rem solid var(--color-bg1);
 }
 
-}
-
-
 .testis_info {
     text-align: center;
 }
 
 .testis_body {
     background: var(--color-primary);
-    padding: 2rem;
-    margin-top: 3rem;
-    position: relative;
-}
-
-}
-
-.testis_body2 {
-    background: var(--color-bg3);
     padding: 2rem;
     margin-top: 3rem;
     position: relative;
@@ -599,4 +586,4 @@ footer ul li a:hover {
 .footer_1 p {
     margin: 1rem auto;
 }
-}
+    }
